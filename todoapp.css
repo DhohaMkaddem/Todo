@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.todo {
+  background-color: blue;
+  color: cornsilk;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  /*justify-content: space-between;*/
+ 
+  margin: 0 50px;
+  padding-right: 10%;
+}
+.todo button {
+  margin-top: 10px;
+  border-radius: 3px;
+  background-color: blue;
+  color: cornsilk;
+}
+.todo input {
+  border-radius: 3px;
+  width: 80%;
+}
+ul button {
+  width: 100px;
+  height: 50px;
+  color: black;
+  font-weight: 500;
+ 
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+div p{
+    align-self: center;
+    font-size: large;
+    font-weight: 700;
+    color: #4f4f4f;
+}
+ul {
+   
+  list-style: none;
+}
+ul li{
+  display: flex;
+ 
+ 
+
+}
+ul li .first{
+  order: -2;
+}
+.item{
+display: flex;
+justify-content: center;
+
+}
+.item span{
+  text-align: center;
+  align-self: center;
+  padding-left: 20px;
+  flex-grow: 2;
+}
